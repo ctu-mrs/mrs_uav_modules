@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
 
-  <name>mrs_uav_core</name>
+  <name>mrs_uav_modules</name>
   <version>1.0.0</version>
   <description>The MRS UAV Modules metapackage</description>
 
