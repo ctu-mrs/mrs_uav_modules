@@ -1,0 +1,62 @@
+location: .gitman
+sources:
+  - repo: https://github.com/ctu-mrs/mrs_utils
+    name: mrs_utils
+    rev: hw_api
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_utils
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/trajectory_loader
+    name: mrs_uav_trajectory_loader
+    rev: hw_api
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_uav_trajectory_loader
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/path_loader
+    name: mrs_uav_path_loader
+    rev: hw_api
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_uav_path_loader
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_serial
+    name: mrs_serial
+    rev: hw_api
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_serial
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_bumper
+    name: mrs_bumper
+    rev: hw_api
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_bumper
+    scripts:
+      - git submodule update --init --recursive

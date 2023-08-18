@@ -18,5 +18,6 @@
   <depend>mrs_uav_trajectory_loader</depend>
   <depend>mrs_uav_path_loader</depend>
   <depend>mrs_serial</depend>
+  <depend>mrs_bumper</depend>
 
 </package>
