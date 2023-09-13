@@ -72,8 +72,8 @@ sources:
         target: ros_packages/mrs_pcl_tools
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/ouster_ros
-    name: ouster_ros
+  - repo: https://github.com/ctu-mrs/ouster-ros
+    name: ouster-ros
     rev: mrs
     type: git
     params:
@@ -81,6 +81,6 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/ouster_ros
+        target: ros_packages/ouster-ros
     scripts:
       - git submodule update --init --recursive
