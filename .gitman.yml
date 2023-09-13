@@ -60,3 +60,27 @@ sources:
         target: ros_packages/mrs_bumper
     scripts:
       - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_pcl_tools
+    name: mrs_pcl_tools
+    rev: master
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_pcl_tools
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/ouster_ros
+    name: ouster_ros
+    rev: mrs
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/ouster_ros
+    scripts:
+      - git submodule update --init --recursive

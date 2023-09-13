@@ -19,5 +19,6 @@
   <depend>mrs_uav_path_loader</depend>
   <depend>mrs_serial</depend>
   <depend>mrs_bumper</depend>
+  <depend>mrs_pcl_tools</depend>
 
 </package>
