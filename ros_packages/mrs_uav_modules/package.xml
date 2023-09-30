@@ -20,5 +20,6 @@
   <depend>mrs_serial</depend>
   <depend>mrs_bumper</depend>
   <depend>mrs_pcl_tools</depend>
+  <depend>mrs_modules_msgs</depend>
 
 </package>

@@ -1,5 +1,17 @@
 location: .gitman
 sources:
+  - repo: https://github.com/ctu-mrs/mrs_modules_msgs
+    name: mrs_modules_msgs
+    rev: master
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_modules_msgs
+    scripts:
+      - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils
     name: mrs_utils
     rev: hw_api
