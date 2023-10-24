@@ -108,3 +108,15 @@ sources:
         target: ros_packages/nimbro-network
     scripts:
       - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/aloam
+    name: aloam
+    rev: master
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/aloam
+    scripts:
+      - git submodule update --init --recursive
