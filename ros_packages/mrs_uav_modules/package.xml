@@ -22,7 +22,6 @@
   <depend>mrs_pcl_tools</depend>
   <depend>mrs_modules_msgs</depend>
 
-  <depend>aloam_slam</depend>
   <depend>nimbro_network</depend>
 
 </package>

@@ -14,7 +14,6 @@ The UAV Modules are installed as a part of the [MRS UAV System](https://github.c
 
 | Repository                                                                                |
 |-------------------------------------------------------------------------------------------|
-| [aloam](https://github.com/ctu-mrs/aloam)                                                 |
 | [mrs_modules_msgs](https://github.com/ctu-mrs/mrs_modules_msgs)                           |
 | [mrs_bumper](https://github.com/ctu-mrs/mrs_bumper)                                       |
 | [mrs_pcl_tools](https://github.com/ctu-mrs/mrs_pcl_tools)                                 |
