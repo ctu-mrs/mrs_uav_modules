@@ -9,7 +9,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_modules_msgs
+        target: mrs_modules_msgs
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils
@@ -21,7 +21,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_utils
+        target: mrs_utils
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/trajectory_loader
@@ -33,7 +33,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_uav_trajectory_loader
+        target: mrs_uav_trajectory_loader
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/path_loader
@@ -45,7 +45,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_uav_path_loader
+        target: mrs_uav_path_loader
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial
@@ -57,7 +57,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_serial
+        target: mrs_serial
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_bumper
@@ -69,7 +69,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_bumper
+        target: mrs_bumper
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools
@@ -81,7 +81,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/mrs_pcl_tools
+        target: mrs_pcl_tools
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster-ros
@@ -93,7 +93,7 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/ouster-ros
+        target: ouster-ros
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/nimbro_network
@@ -105,6 +105,6 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/nimbro-network
+        target: nimbro-network
     scripts:
       - git submodule update --init --recursive
