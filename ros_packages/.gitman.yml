@@ -108,3 +108,15 @@ sources:
         target: nimbro-network
     scripts:
       - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/livox_ros_driver2
+    name: livox_ros_driver2
+    rev: master
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: livox_ros_driver2
+    scripts:
+      - git submodule update --init --recursive

@@ -23,6 +23,7 @@ The UAV Modules are installed as a part of the [MRS UAV System](https://github.c
 | [mrs_utils](https://github.com/ctu-mrs/mrs_utils)                                         |
 | [nimbro_network](https://github.com/ctu-mrs/nimbro_network)                               |
 | [ouster-ros](https://github.com/ctu-mrs/ouster-ros)                                       |
+| [livox_ros_driver2](https://github.com/ctu-mrs/livox_ros_driver2)                         |
 
 # Disclaimer
 
