@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
 
   <name>mrs_uav_modules</name>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
   <description>The MRS UAV Modules metapackage</description>
 
   <author email="tomas.baca@fel.cvut.cz">Tomas Baca</author>
@@ -10,18 +11,12 @@
 
   <license>BSD 3-Clause</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>cmake_modules</depend>
+  <exec_depend>mrs_modules_msgs</exec_depend>
 
-  <depend>mrs_utils</depend>
-  <depend>mrs_uav_trajectory_loader</depend>
-  <depend>mrs_uav_path_loader</depend>
-  <depend>mrs_serial</depend>
-  <depend>mrs_bumper</depend>
-  <depend>mrs_pcl_tools</depend>
-  <depend>mrs_modules_msgs</depend>
-
-  <depend>nimbro_network</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 
 </package>

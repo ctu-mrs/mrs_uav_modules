@@ -15,15 +15,6 @@ The UAV Modules are installed as a part of the [MRS UAV System](https://github.c
 | Repository                                                                                |
 |-------------------------------------------------------------------------------------------|
 | [mrs_modules_msgs](https://github.com/ctu-mrs/mrs_modules_msgs)                           |
-| [mrs_bumper](https://github.com/ctu-mrs/mrs_bumper)                                       |
-| [mrs_pcl_tools](https://github.com/ctu-mrs/mrs_pcl_tools)                                 |
-| [mrs_serial](https://github.com/ctu-mrs/mrs_serial)                                       |
-| [mrs_uav_path_loader](https://github.com/ctu-mrs/mrs_uav_path_loader)                     |
-| [mrs_uav_trajectory_loader](https://github.com/ctu-mrs/mrs_uav_trajectory_loader)         |
-| [mrs_utils](https://github.com/ctu-mrs/mrs_utils)                                         |
-| [nimbro_network](https://github.com/ctu-mrs/nimbro_network)                               |
-| [ouster-ros](https://github.com/ctu-mrs/ouster-ros)                                       |
-| [livox_ros_driver2](https://github.com/ctu-mrs/livox_ros_driver2)                         |
 
 # Disclaimer
 
