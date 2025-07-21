@@ -12,3 +12,15 @@ sources:
         target: mrs_modules_msgs
     scripts:
       - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_serial
+    name: mrs_serial
+    rev: ros2
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: mrs_serial
+    scripts:
+      - git submodule update --init --recursive
