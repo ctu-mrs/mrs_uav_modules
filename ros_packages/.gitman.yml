@@ -36,3 +36,15 @@ sources:
         target: mrs_rviz_plugins
     scripts:
       - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_utils
+    name: mrs_utils
+    rev: ros2
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: mrs_utils
+    scripts:
+      - git submodule update --init --recursive
